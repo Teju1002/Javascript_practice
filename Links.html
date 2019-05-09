@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <script src="links.js"></script>
+		<title>Tejaswini</title>
+		
+		<style>
+			body{
+				background-color: indianred;
+			}
+			.linksDiv{
+				margin:100px;
+			}
+			.linksDiv a{
+				padding:10px;
+				color: white;
+				
+			}
+			.linksDiv a:hover{
+				padding:10px;
+				color: blue;
+				
+			}
+			.buttonClass{
+				margin:100px;
+			}
+			input[type=button]{
+				color:black;
+				background-color: white
+			}
+			#previousUrls{
+				color:White;
+				margin:100px;
+			}
+		</style>
+		
+	</head>
+	<body>
+	
+		<div class="linksDiv">
+			<a href="https://www.google.com" target="_blank">Google</a>
+			<a href="https://www.gmail.com" target="_blank">Gmail</a>
+			<a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>
+			<a href="https://www.bing.com" target="_blank">Bing</a>
+			<a href="https://www.w3schools.com" target="_blank">W3 Schools</a>
+			<a href="https://www.tutorialspoint.com" target="_blank">Tutorials Point</a>
+			<a href="https://www.javatpoint.com/" target="_blank">JavaTpoint</a>
+		</div>
+		
+		<div id="previousUrls">
+		<p><b>Previous Links:</b></p>
+		</div>
+		
+		<div class="buttonClass">
+			<input type="button" value="Change Urls" onclick="changeUrls()">
+			<input type="button" value="Reload" onclick="reloadPage()">
+		</div> 
+	</body>
+</html>
